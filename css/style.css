@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    box-sizing: border-box;
+    padding: 0;
+    background: #eee;
+  }
+  
+  #header {
+    min-height: 75px;
+    display: flex;
+    position: fixed;
+    background-color: #eee;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section {
+  /*   margin-top: 100px; */
+  }
+  
+  .hamburger-icon {
+    color: green;
+    margin-left: 15px;
+    font-size: 2rem;  
+  }
+  
+  .logo {
+    flex: 2;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+  }
+  
+  .logo > a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #nav-bar {
+    flex: 1;
+    display: flex;
+  }
+  
+  .menu-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;  
+  }
+  
+  .menu-links > li > a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #submit {
+    border: none;
+    background-color: #f1c42f;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+  
+  #submit:hover {
+    background-color: #f1c45f;
+  }
+  
+  #email {
+    outline: none;
+    height: 25px;
+    padding: 5px;
+  }
+  
+  .services-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service-item {
+    padding: 30px;
+  }
+  
+  @media screen and (min-width: 480px) {
+    .menu-links > li > a {
+      font-size: 12px;
+    }
+  }
